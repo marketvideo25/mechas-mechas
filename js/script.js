@@ -1,4 +1,13 @@
 window.addEventListener('scroll', function(){
+    let perfil = document.querySelector('#perfil');
+    let altura0 = window.innerHeight/1.3;
+    let distancia0 = perfil.getBoundingClientRect().top;
+
+    if(distancia0 <= altura0){
+        perfil.style.opacity = ' 1';
+    }
+
+
     let imagen1 = document.querySelectorAll('#img1')[0];
     let imagen5 = document.querySelectorAll('#img5')[0];
     let imagen9 = document.querySelectorAll('#img9')[0];

@@ -24,6 +24,7 @@ body{
     50% { transform: scale(1.1); }
     to { transform: none; }
 }
+
 .head1{
   
     max-width: 100%
@@ -137,7 +138,6 @@ body{
 .foto{
     border-radius: 50%;
     max-width: 40%;
-    
 }
 /*====================Portafolio======================*/
 .galeria{
