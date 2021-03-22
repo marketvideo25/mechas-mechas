@@ -74,7 +74,5 @@ window.addEventListener('scroll', function(){
         imagen12.style.opacity = '1';
         imagen16.style.opacity = '1';
     }
-
-    console.log( distancia4 )
 });
 
